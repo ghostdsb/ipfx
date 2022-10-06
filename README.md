@@ -1,16 +1,15 @@
 # Ipfx
 
-Hello and Welcome to IPFS!
+    Hello and Welcome to IPFX!
 
-      ██╗██████╗ ███████╗███████╗
-      ██║██╔══██╗██╔════╝██╔════╝
-      ██║██████╔╝█████╗  ███████╗
-      ██║██╔═══╝ ██╔══╝  ╚════██║
-      ██║██║     ██║     ███████║
-      ╚═╝╚═╝     ╚═╝     ╚══════╝
+      ██╗██████╗ ███████╗██╗    ██╗
+      ██║██╔══██╗██╔════╝╚═██╗██╔═╝
+      ██║██████╔╝█████╗    ╚███╔╝
+      ██║██╔═══╝ ██╔══╝    ██╔██╗ 
+      ██║██║     ██║     ██╔═╝╚═██╗
+      ╚═╝╚═╝     ╚═╝     ╚═╝    ╚═╝
 
-    If you're seeing this, you have successfully installed
-    IPFS and are now interfacing with the ipfs merkledag!
+    IPFS api client library in Elixir 
 
     -------------------------------------------------------
     | Warning:                                              |
@@ -20,14 +19,9 @@ Hello and Welcome to IPFS!
     -------------------------------------------------------
 
 
-    Check out some of the other files in this directory:
-    - ./about
-    - ./help
-    - ./quick-start     <-- usage examples
-    - ./readme          <-- this file
-    - ./security-notes
+    Usage:
 
-  Usage:
+    After starting the IPFS daemon, try the following functions.
   
     > Ipfx.home
     > Ipfx.about
