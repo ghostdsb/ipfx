@@ -1,9 +1,9 @@
-defmodule ExIpfs.MixProject do
+defmodule Ipfx.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :ex_ipfs,
+      app: :ipfx,
       version: "0.1.0",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
@@ -15,7 +15,7 @@ defmodule ExIpfs.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {ExIpfs.Application, []}
+      mod: {Ipfx.Application, []}
     ]
   end
 

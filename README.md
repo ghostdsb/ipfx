@@ -1,4 +1,4 @@
-# ExIpfs
+# Ipfx
 
 Hello and Welcome to IPFS!
 
@@ -29,8 +29,8 @@ Hello and Welcome to IPFS!
 
   Usage:
   
-    > ExIpfs.home
-    > ExIpfs.about
-    > ExIpfs.help
-    > ExIpfs.readme
-    > ExIpfs.commands
+    > Ipfx.home
+    > Ipfx.about
+    > Ipfx.help
+    > Ipfx.readme
+    > Ipfx.commands
