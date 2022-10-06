@@ -1,21 +1,36 @@
 # ExIpfs
 
-**TODO: Add description**
+Hello and Welcome to IPFS!
 
-## Installation
+      ██╗██████╗ ███████╗███████╗
+      ██║██╔══██╗██╔════╝██╔════╝
+      ██║██████╔╝█████╗  ███████╗
+      ██║██╔═══╝ ██╔══╝  ╚════██║
+      ██║██║     ██║     ███████║
+      ╚═╝╚═╝     ╚═╝     ╚══════╝
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_ipfs` to your list of dependencies in `mix.exs`:
+    If you're seeing this, you have successfully installed
+    IPFS and are now interfacing with the ipfs merkledag!
 
-```elixir
-def deps do
-  [
-    {:ex_ipfs, "~> 0.1.0"}
-  ]
-end
-```
+    -------------------------------------------------------
+    | Warning:                                              |
+    |   This is alpha software. Use at your own discretion! |
+    |   Much is missing or lacking polish. There are bugs.  |
+    |   Not yet secure. Read the security notes for more.   |
+    -------------------------------------------------------
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/ex_ipfs>.
 
+    Check out some of the other files in this directory:
+    - ./about
+    - ./help
+    - ./quick-start     <-- usage examples
+    - ./readme          <-- this file
+    - ./security-notes
+
+  Usage:
+  
+    > ExIpfs.home
+    > ExIpfs.about
+    > ExIpfs.help
+    > ExIpfs.readme
+    > ExIpfs.commands

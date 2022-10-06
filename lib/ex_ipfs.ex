@@ -31,6 +31,10 @@ defmodule ExIpfs do
     - ./readme          <-- this file
     - ./security-notes
   """
+  def home do
+    Conn.post("/cat?arg=QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc")
+  end
+
   def about do
     Conn.post("/cat?arg=QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/about")
   end
@@ -41,6 +45,14 @@ defmodule ExIpfs do
 
   def readme do
     Conn.post("/cat?arg=QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/readme")
+  end
+
+  def quick_start do
+    Conn.post("/cat?arg=QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/quick-start")
+  end
+
+  def security_notes do
+    Conn.post("/cat?arg=QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/security-notes")
   end
 
   # def add_cmd(file_path), do: setup_multipart_form(file_path) |> Conn.post("/add")
